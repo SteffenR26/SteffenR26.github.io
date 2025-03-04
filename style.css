@@ -1,3 +1,59 @@
+/* Header Styles */
+.header {
+    background: #0066cc;
+    color: #fff;
+    padding: 1em 0;
+    position: relative;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    max-width: 100px; /* Logo kleiner machen */
+    height: auto; /* Seitenverhältnis beibehalten */
+    margin-right: 15px; /* Abstand zwischen Logo und Text */
+}
+
+.header .logo-text {
+    font-size: 1.5rem; /* Schriftgröße anpassen */
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-toggle {
+    display: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    margin: 0 1em;
+}
+
+.nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
 /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
