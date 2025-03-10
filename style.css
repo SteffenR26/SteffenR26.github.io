@@ -318,6 +318,7 @@ h1, h2, h3 {
         top: 60px;
         left: 0;
         width: 100%;
+        z-index: 1000; 
         opacity: 0;
         transform: translateY(-10px);
         transition: opacity 0.3s ease, transform 0.3s ease;
